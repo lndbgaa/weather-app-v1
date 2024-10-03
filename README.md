@@ -1,8 +1,8 @@
 # Citimeteo - REACT/VITE Project
 
 ![Project Status](https://img.shields.io/badge/Status-in%20progress-orange)
-[![CodeFactor](https://www.codefactor.io/repository/github/lindabgaa/project-name/badge)](https://www.codefactor.io/repository/github/project-name/citimeteo)
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue)](License)
+[![CodeFactor](https://www.codefactor.io/repository/github/lindabgaa/citimeteo/badge)](https://www.codefactor.io/repository/github/lindabgaa/citimeteo)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue)](LICENSE)
 ![API Status](https://img.shields.io/badge/API%20Status-Online-brightgreen)
 
 ## Description
