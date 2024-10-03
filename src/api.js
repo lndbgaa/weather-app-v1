@@ -1,7 +1,7 @@
 // ------ Main function to Fetch data from API
 const fetchApiData = async (endPoint, city) => {
   const baseUrl = "https://api.weatherapi.com/v1/";
-  const apiKey = import.meta.env.VITE_API_KEY;
+  const apiKey = import.meta.env.VITE_WEATHER_API_KEY;
   const url = `${baseUrl}${endPoint}.json?key=${apiKey}&q=${city}`;
 
   const response = await fetch(url);
