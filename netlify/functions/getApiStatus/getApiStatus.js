@@ -1,6 +1,6 @@
 // Function to get the status of the WeatherAPI monitor from UptimeRobot API
 export const handler = async () => {
-  const API_KEY = import.meta.env.VITE_UPTIME_ROBOT_API_KEY;
+  const API_KEY = process.env.UPTIME_ROBOT_API_KEY;
   const MONITOR_ID = "797784086"; // WeatherAPI monitor ID
   const url = `https://api.uptimerobot.com/v2/getMonitors`; // UptimeRobot API endpoint
 
