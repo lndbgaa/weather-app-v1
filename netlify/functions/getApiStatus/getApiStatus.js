@@ -31,7 +31,12 @@ export const handler = async () => {
 
       return {
         statusCode: 200,
-        body: JSON.stringify({ status, color }),
+        body: JSON.stringify({
+          schemaVersion: 1,
+          label: "API Status",
+          message: status,
+          color: color,
+        }),
       };
     }
 
