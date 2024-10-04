@@ -4,6 +4,8 @@ export const handler = async () => {
   const MONITOR_ID = "797784086"; // WeatherAPI monitor ID
   const url = `https://api.uptimerobot.com/v2/getMonitors`; // UptimeRobot API endpoint
 
+  console.log("API_KEY:", API_KEY);
+
   try {
     const response = await fetch(url, {
       method: "POST",
@@ -17,8 +19,12 @@ export const handler = async () => {
       }),
     });
 
+    console.log("Response status:", response.status);
+
     if (response.ok) {
       const monitorData = await response.json();
+      console.log("Monitor data:", monitorData);
+
       const status =
         monitorData.monitors[0].status === 2 ? "Online" : "Offline"; // 2 is the status code for "up
 
@@ -32,7 +38,8 @@ export const handler = async () => {
       statusCode: response.status,
       body: JSON.stringify({ error: "Failed to fetch monitor status" }),
     };
-  } catch {
+  } catch (error) {
+    console.error("Error fetching data:", error);
     return {
       statusCode: 500,
       body: JSON.stringify({ error: "Error fetching data" }),
