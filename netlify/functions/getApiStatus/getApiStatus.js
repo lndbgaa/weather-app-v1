@@ -25,13 +25,18 @@ export const handler = async () => {
       const monitorData = await response.json();
       console.log("Monitor data:", monitorData);
 
-      const status =
+      const apiStatus =
         monitorData.monitors[0].status === 2 ? "Online" : "Offline"; // 2 is the status code for "up
       const color = status === "Online" ? "#97c40e" : "#cc573f";
 
       return {
         statusCode: 200,
-        body: JSON.stringify({ status, color }),
+        body: JSON.stringify({
+          schemaVersion: 1,
+          label: "API Status",
+          message: apiStatus,
+          color: color,
+        }),
       };
     }
 
