@@ -27,10 +27,11 @@ export const handler = async () => {
 
       const status =
         monitorData.monitors[0].status === 2 ? "Online" : "Offline"; // 2 is the status code for "up
+      const color = status === "Online" ? "green" : "red";
 
       return {
         statusCode: 200,
-        body: JSON.stringify({ status }),
+        body: JSON.stringify({ status, color }),
       };
     }
 
