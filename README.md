@@ -27,7 +27,7 @@ The data is sourced from the API [WeatherAPI](https://www.weatherapi.com/). <br>
 
 ## Plugins / Libraries
 
-- **@vitejs/plugin-react**
+- **@vitejs/plugin-react** uses **Babel** for Fast Refresh
 - **_PropTypes_**: a library used for type-checking React component props, helping to ensure that components receive the correct data types.
 - **_he_**: a library for encoding and decoding HTML entities, used to manage API results that may include special characters or codes in city names, ensuring safe rendering of the content.
 
