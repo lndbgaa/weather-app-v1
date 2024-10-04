@@ -1,8 +1,8 @@
-# Citimeteo - REACT/VITE Project
+# Weather App - React/Vite project
 
 ![Project Status](https://img.shields.io/badge/Project%20Status-In%20Progress-orange?style=flat-square)
-[![CodeFactor](https://www.codefactor.io/repository/github/lindabgaa/citimeteo/badge?style=flat-square)](https://www.codefactor.io/repository/github/lindabgaa/citimeteo)
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue?style=flat-square)](LICENSE) <br>
+[![CodeFactor](https://www.codefactor.io/repository/github/lindabgaa/weather-app/badge)](https://www.codefactor.io/repository/github/lindabgaa/weather-app)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue?style=flat-square)](LICENSE)
 
 This project is a weather application built with **JavaScript**, **React**, and **CSS**. It uses the Vite build tool for fast development. The app enables users to effortlessly search for weather information in any city around the world through a user-friendly interface, providing real-time weather forecasts including temperature, humidity, wind speed, and more. <br>
 
@@ -28,7 +28,6 @@ The data is sourced from the API [WeatherAPI](https://www.weatherapi.com/). <br>
 ## Plugins / Libraries
 
 - **@vitejs/plugin-react**
-- **@vitejs/plugin-react-swc**
 - **_PropTypes_**: a library used for type-checking React component props, helping to ensure that components receive the correct data types.
 - **_he_**: a library for encoding and decoding HTML entities, used to manage API results that may include special characters or codes in city names, ensuring safe rendering of the content.
 
