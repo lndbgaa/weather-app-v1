@@ -27,7 +27,7 @@ export const handler = async () => {
 
       const apiStatus =
         monitorData.monitors[0].status === 2 ? "Online" : "Offline"; // 2 is the status code for "up
-      const color = status === "Online" ? "#97c40e" : "#cc573f";
+      const color = apiStatus === "Online" ? "#97c40e" : "#cc573f";
 
       return {
         statusCode: 200,
