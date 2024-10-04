@@ -3,7 +3,7 @@
 ![Project Status](https://img.shields.io/badge/Status-in%20progress-orange?style=flat-square)
 [![CodeFactor](https://www.codefactor.io/repository/github/lindabgaa/citimeteo/badge?style=flat-square)](https://www.codefactor.io/repository/github/lindabgaa/citimeteo)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue?style=flat-square)](LICENSE)
-[![Dynamic JSON Badge](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fcitimeteo.netlify.app%2F.netlify%2Ffunctions%2FgetApiStatus&query=%24.status&color=%24.color&style=for-the-badge&label=API%20Status)](https://stats.uptimerobot.com/Upe7finkYZ/797784086)
+[![Endpoint Badge](https://img.shields.io/endpoint?url=https%3A%2F%2Fcitimeteo.netlify.app%2F.netlify%2Ffunctions%2FgetApiStatus&style=for-the-badge)](https://stats.uptimerobot.com/Upe7finkYZ/797784086)
 
 ## Description
 
