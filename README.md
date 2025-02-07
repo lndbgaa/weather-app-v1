@@ -1,6 +1,6 @@
 # Weather App - React/Vite project
 
-![Project Status](https://img.shields.io/badge/Project%20Status-In%20Progress-orange?style=flat-square)
+![Project Status](https://img.shields.io/badge/Project%20Status-Finished-green?style=flat-square)
 [![CodeFactor](https://www.codefactor.io/repository/github/lindabgaa/weather-app-v1/badge?style=flat-square)](https://www.codefactor.io/repository/github/lindabgaa/weather-app-v1)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue?style=flat-square)](LICENSE)
 
